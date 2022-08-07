@@ -21,8 +21,27 @@ Clone the repository and install dependencies with the `yarn` command.
 
 ```
 git clone https://github.com/soos3d/rsvp-web3-dapp.git
+```
+```
 cd rsvp-web3-dapp
+```
+```
 yarn
+```
+
+Create a `.env` file in your root folder containing the environment variables for your node endpoint and private key.
+
+You'll need an endpoint to access the Mumbai testnet; I recommend using [Chainstack](https://chainstack.com).
+
+1. [Sign up with Chainstack](https://console.chainstack.com/user/account/create).  
+1. [Deploy a node](https://docs.chainstack.com/platform/join-a-public-network).  
+1. [View node access and credentials](https://docs.chainstack.com/platform/view-node-access-and-credentials). 
+
+It will look like this:
+
+```bash
+MUMBAI_CHAINSTACK_URL=YOUR_CHAINSTACK_URL
+STAGING_PRIVATE_KEY=YOUR_PRIVATE_KEY
 ```
 
 Compile the smart contract:
@@ -96,15 +115,6 @@ You'll need an endpoint to access the Mumbai testnet; I recommend using [Chainst
 1. [View node access and credentials](https://docs.chainstack.com/platform/view-node-access-and-credentials). 
 
 Then get some MATIC test token, you can use the [Polygon faucet](https://faucet.polygon.technology/)
-
-The next step is to create a `.env` file in your root folder containing the environment variables for your node endpoint and private key.
-
-It will look like this:
-
-```bash
-MUMBAI_CHAINSTACK_URL=YOUR_CHAINSTACK_URL
-STAGING_PRIVATE_KEY=YOUR_PRIVATE_KEY
-```
 
 Now you can compile the smart contract. 
 
