@@ -15,7 +15,7 @@ Web3 RSVP DApp - This DApp is based on the [30 Days of Web3 curriculum](https://
     - Run `yarn --version` to verify if it was installed correctly; it should show something like `x.x.x`
     - You might need to [install it with `npm`](https://classic.yarnpkg.com/lang/en/docs/install/) or `corepack`
 
-## Quick use
+## Usage
 
 Clone the repository and install dependencies with the `yarn` command.
 
