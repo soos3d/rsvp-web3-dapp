@@ -1,0 +1,32 @@
+{
+  "name": "rsvp-web3-dapp",
+  "version": "1.0.0",
+  "description": "Web3 RSVP DApp - This DApp is based on the 30 Days of Web3 curriculum | https://www.30daysofweb3.xyz/curriculum/1-getting-started/0-overview |, and it's a DApp to create events and manage RSVP. Project made wiht HardHat and Solidity. ",
+  "main": "index.js",
+  "author": "soos3d",
+  "license": "MIT",
+  "scripts": {
+    "script": "node scripts/run.js",
+    "deploy": "npx hardhat run scripts/deploy.js --network mumbai"
+  },
+  "devDependencies": {
+    "@ethersproject/abi": "^5.4.7",
+    "@ethersproject/providers": "^5.4.7",
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^1.0.1",
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@nomiclabs/hardhat-etherscan": "^3.0.0",
+    "@typechain/ethers-v5": "^10.1.0",
+    "@typechain/hardhat": "^6.1.2",
+    "chai": "^4.2.0",
+    "ethers": "^5.4.7",
+    "hardhat": "^2.10.1",
+    "hardhat-gas-reporter": "^1.0.8",
+    "solidity-coverage": "^0.7.21",
+    "typechain": "^8.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1"
+  }
+}
